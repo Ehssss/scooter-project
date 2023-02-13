@@ -1,0 +1,79 @@
+<mxfile host="65bd71144e">
+    <diagram id="THgFrY0_yw1b7CmfGH3X" name="Page-1">
+        <mxGraphModel dx="736" dy="1641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="User&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="490" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="240" width="370" height="620" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;&lt;u&gt;ScooterHire App&lt;/u&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4">
+                    <mxGeometry x="120" width="125" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Register User&lt;br&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="4">
+                    <mxGeometry x="132.5" y="60" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="User Login" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="4">
+                    <mxGeometry x="132.5" y="140" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="User Logout" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="4">
+                    <mxGeometry x="132.5" y="220" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Rent Scooter" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="4">
+                    <mxGeometry x="135" y="305" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Dock Scooter" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="4">
+                    <mxGeometry x="132.5" y="390" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Scooter&lt;br&gt;" style="shape=mxgraph.signs.transportation.scooter;html=1;pointerEvents=1;fillColor=#d0cee2;strokeColor=#56517e;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="490" width="99" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="2" target="8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="90" y="510" as="sourcePoint"/>
+                        <mxPoint x="140" y="460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=none;html=1;" edge="1" parent="1" target="9">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="80" y="520" as="sourcePoint"/>
+                        <mxPoint x="361.7105263157896" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2" target="10">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="110" y="530" as="sourcePoint"/>
+                        <mxPoint x="371.7105263157896" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="13" target="11">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="120" y="540" as="sourcePoint"/>
+                        <mxPoint x="381.7105263157896" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="13" target="12">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="130" y="550" as="sourcePoint"/>
+                        <mxPoint x="391.7105263157896" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2" target="11">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="140" y="560" as="sourcePoint"/>
+                        <mxPoint x="401.7105263157896" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=none;html=1;" edge="1" parent="1" source="2" target="12">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="150" y="570" as="sourcePoint"/>
+                        <mxPoint x="411.7105263157896" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
