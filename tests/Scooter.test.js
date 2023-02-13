@@ -3,11 +3,18 @@ const User = require('../src/User')
 
 //typeof scooter === object
 describe('scooter object', () => {
-  test('does something', () => {
-    // edit this to be a real test!
-    expect(false).toEqual(true);
-  }
-)
+  test('scooter instance is created at full charge', () => {
+    const scooter1 = new Scooter('station1');
+    expect (scooter1.charge).toEqual(100);
+  })
+  test('scooter is not broken when created', () => {
+    const scooter1 = new Scooter('station1');
+    expect (scooter1.isBroken).toEqual(false);
+  })
+  test('station of scooter is correct', () => {
+    const scooter1 = new Scooter('station1');
+    expect (scooter1.station).toEqual('station1');
+  })
 })
 
 //Method tests

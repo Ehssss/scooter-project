@@ -3,12 +3,12 @@ class Scooter{
   constructor (station) {
     this.station = station;
   }
-  static user = null;
+  user = null;
 /*   static serial = 
   static nextSerial =  
   ^^ figure out how to work these */
-  static charge = 100;
-  static isBroken = false;
+  charge = 100;
+  isBroken = false;
   rent(user) {
     if (this.charge > 20 && this.isBroken === false){
       this.station = null;
